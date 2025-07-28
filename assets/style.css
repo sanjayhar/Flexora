@@ -1,84 +1,41 @@
-/* === style.css === */
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background: #f9f9f9;
   color: #333;
 }
-
 header {
-  background-color: #111;
-  color: white;
-  padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-header img.logo {
-  height: 60px;
-  margin-right: 20px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 15px;
-}
-
-nav ul li {
-  display: inline;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-nav ul li a:hover {
-  color: #fca311;
-}
-
-main, section, footer {
-  padding: 20px;
-}
-
-footer {
+  padding: 10px 40px;
   background-color: #111;
-  color: white;
-  text-align: center;
-  padding: 10px;
+  color: #fff;
 }
-
-h1, h2, h3 {
-  font-weight: 800;
-}
-
-.program {
-  background-color: white;
-  padding: 15px;
-  margin: 15px 0;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.contact-info {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-}
-
-.social-icons a {
-  margin: 0 10px;
-  color: #333;
+header .brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
   text-decoration: none;
-  font-size: 20px;
 }
-
-.social-icons a:hover {
-  color: #fca311;
+.logo {
+  height: 60px;
+  width: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 20px 40px;
 }
